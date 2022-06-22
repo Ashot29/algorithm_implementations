@@ -1,6 +1,6 @@
 const arr = [33, 0, -2, 3, 80, 5, 17, -7];
 
-function insertionSort(arr) {
+function selectionSort(arr) {
     for (let i = 0; i < arr.length - 1; i++) {
         for (let j = i + 1; j < arr.length; j ++) {
             if (arr[i] < arr[j]) {
@@ -12,4 +12,4 @@ function insertionSort(arr) {
     return arr
 }
 
-console.log(insertionSort(arr))
+console.log(selectionSort(arr))
